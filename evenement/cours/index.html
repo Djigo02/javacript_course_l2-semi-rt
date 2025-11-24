@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Démonstration Événements JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Démonstration des Événements en JavaScript</header>
+
+    <div class="container">
+      <div class="card">
+        <h2>1. Clic sur un bouton</h2>
+        <!-- <button onclick="direBonjour()" id="btn-click">Clique-moi</button> -->
+        <button id="btn-click">Clique-moi</button>
+        <button id="btn-blue">Bleu</button>
+        <button id="btn-red">Rouge</button>
+        <button id="btn-green">Vert</button>
+        <div id="sortie"></div>
+      </div>
+
+      <div class="card">
+        <h2>2. Survol de la souris</h2>
+        <div id="zone-survol">Passe la souris ici</div>
+      </div>
+
+      <div class="card">
+        <h2>3. Saisie clavier</h2>
+        <div id="zone-clavier">
+          <span id="text-clavier">Tape quelque chose : </span>
+          <input type="text" id="input-clavier" placeholder="Écris ici..." />
+          <p id="count-chars">0 caractère</p>
+        </div>
+        <div id="affiche-clavier"></div>
+      </div>
+
+      <div class="card">
+        <h2>Redimensionnement de la fenêtre</h2>
+        <p id="resize-info">Largeur : (en attente)</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f5f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #4c6ef5, #15aabf);
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 22px;
+  border-left: 4px solid #4c6ef5;
+  padding-left: 10px;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4c6ef5;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background: #364fc7;
+}
+
+#zone-survol {
+  background: #e7f5ff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px dashed #4dabf7;
+  transition: 0.3s;
+}
+
+#zone-survol:hover {
+  background: #d0ebff;
+}
+
+#zone-clavier {
+  background: #fff0f6;
+  padding: 20px;
+  border: 2px solid #f06595;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
