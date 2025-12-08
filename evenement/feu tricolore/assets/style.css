@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.traffic-container {
+  width: 260px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.traffic-container h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.traffic-container img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.traffic-container button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Couleurs des boutons */
+#btn-green {
+  background: #4caf50;
+  color: white;
+}
+
+#btn-yellow {
+  background: #fbc02d;
+  color: white;
+}
+
+#btn-red {
+  background: #d32f2f;
+  color: white;
+}
+
+/* Effet hover */
+button:hover {
+  opacity: 0.9;
+}

@@ -17,7 +17,7 @@ btnCheck.addEventListener("click", () => {
     } else {
       messageValue("Bravo 🎉");
       chNumberSecret.textContent = guess.value;
-      //   document.body.style.backgroundColor = "#52a938ff";
+      document.body.style.backgroundColor = "#52a938ff";
     }
   }
 });
@@ -34,8 +34,8 @@ function reset() {
   guess.value = "";
   chNumberSecret.textContent = "?";
   message.textContent = "Demmarage ...";
-  //   document.body.style.backgroundColor = "";
-  document.body.classList.add("my-element");
+  document.body.style.backgroundColor = "";
+  //document.body.classList.add("my-element");
 }
 
 function messageValue(value) {
