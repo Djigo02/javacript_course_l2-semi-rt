@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestion de Budget</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Resegner le solde et les depenses -->
+      <div class="left-container">
+        <h2>Wallet SEMI RT</h2>
+
+        <!-- Ajouter au solde -->
+        <h3>Ajouter au solde</h3>
+        <div class="form-group">
+          <label>Montant à ajouter</label>
+          <input id="recharge" type="number" placeholder="Ex : 5000" />
+        </div>
+        <button id="btn_recharge">Ajouter au solde</button>
+
+        <!-- Ajouter une dépense -->
+        <h3>Ajouter une dépense</h3>
+        <div class="form-group">
+          <label>Titre de la dépense</label>
+          <input id="titre_depense" type="text" placeholder="Ex : Transport" />
+        </div>
+
+        <div class="form-group">
+          <label>Montant dépensé</label>
+          <input id="montant_depense" type="number" placeholder="Ex : 1500" />
+        </div>
+
+        <button id="btn_depense">Ajouter la dépense</button>
+      </div>
+      <!-- Affichage du solde et de l'historique -->
+      <div class="right-container">
+        <h2>Résumé</h2>
+
+        <!-- Solde -->
+        <div class="balance-box">
+          <p>Solde actuel</p>
+          <div id="solde" class="balance-amount">25 000 FCFA</div>
+          <button id="btn_afficher_cacher">Afficher / Cacher</button>
+        </div>
+
+        <!-- Historique -->
+        <h3>Historique des dépenses</h3>
+        <div class="history-box" id="historique">
+          <div class="history-item">
+            <span>Transport</span>
+            <span>-1500</span>
+          </div>
+          <div class="history-item">
+            <span>Repas</span>
+            <span>-3000</span>
+          </div>
+          <div class="history-item">
+            <span>Internet</span>
+            <span>-5000</span>
+          </div>
+        </div>
+
+        <!-- Total -->
+        <div class="total-box">
+          Total des dépenses : <br />
+          <span id="total">9 500 FCFA</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

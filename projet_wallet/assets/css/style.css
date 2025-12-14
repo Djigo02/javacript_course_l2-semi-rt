@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Layout principal */
+.main-container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Containers */
+.left-container,
+.right-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-container {
+  width: 55%;
+}
+
+.right-container {
+  width: 45%;
+}
+
+/* Titres */
+h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  border-left: 4px solid #4c6ef5;
+  padding-left: 10px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Formulaires */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4c6ef5;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #364fc7;
+}
+
+/* Zone solde */
+.balance-box {
+  background-color: #e7f5ff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance-amount {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1c7ed6;
+  margin: 10px 0;
+}
+
+/* Historique */
+.history-box {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+/* Total dépenses */
+.total-box {
+  margin-top: 20px;
+  background-color: #fff3bf;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.total-box span {
+  font-weight: bold;
+  color: #f08c00;
+  font-size: 22px;
+}
